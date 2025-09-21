@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+}
+
+.ulStyle1{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 32px;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins";
+}
+
+.liStyle1{
+     text-decoration: none;
+     color: white;
+}
+
+.boxStyle1{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    padding-top: 35px;
+}
+
+.logoStyle1{
+    position: absolute;
+    padding-left: 120px;
+    padding-top: 59px;
+    color: rgb(255, 255, 255);
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.logoStyle2{
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+}
+
+.tStyle1{
+    color: #F6B50E;
+}
+
+.sizeofbg{
+    height: 1025px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.boxStyle4{
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.hStyle1{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    line-height: 100px;
+}
+
+.lineStyle1{
+    display: flex;
+    justify-content: center;
+    padding-right: 250px;
+}
+
+.buttonStyle1{
+    border: 0px;
+    color: white;
+    background-color: #F6B50E;
+    padding: 20px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.boxStyle2{
+    text-align: center;
+    padding-top: 45.39px;
+}
+
+.dot1{
+    position: relative;
+    left: 120px;
+    top: 20px;
+}
+
+.dot2{
+    position: relative;
+    left: 350px;
+    top: 100px;
+}
+
+.dot3{
+    position: relative;
+    float: right;
+    right: 84px;
+    top: 140px;
+}
+
+.dot4{
+    position: relative;
+    float: right;
+    right: 310px;
+    top:108px
+}
+
+.boxStyle3{
+    position: relative;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("/fonts/Poppins/Poppins-SemiBold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("/fonts/Poppins/Poppins-Regular.ttf");
+    font-weight: normal;
+}
