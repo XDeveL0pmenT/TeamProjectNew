@@ -1,0 +1,80 @@
+.Buttom{
+    background-color: #29795A;
+    width: 1400px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    margin-top: 1100px;
+    transform: translate(-50%, 0);
+    align-items: center;
+    justify-content: center;
+}
+
+.ImageFrame{
+    position: absolute;
+    width: 1400px;
+    height: 400px;
+    top: -140px;
+}
+
+.image{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    left: 150px;
+    border-radius: 20px;
+}
+
+
+.imgText{
+    z-index: 2;
+    align-self: center;
+    position: absolute;
+    width: 301px;
+    height: 15px;
+    left: 250px;
+    top: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 140%;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+.frame {
+    position: absolute;
+    width: 1000px;
+    height: 400px;
+    left: 200px;
+    top: 275px;
+    display: flex;          /* включаем flex */
+    flex-direction: row;    /* (по умолчанию) — в ряд */
+    gap: 25px;  
+}
+
+.block {
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.appButton{
+    z-index: 2;
+    align-self: center;
+    width: 175px;
+    height: 55px;
+    object-fit: cover;    
+}
+
+.insideImg {
+    position: relative;
+    width: 125%;
+    height: 140%;
+    left: -12.5%;
+    top: -20%;
+}
