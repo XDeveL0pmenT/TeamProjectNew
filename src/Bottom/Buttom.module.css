@@ -4,6 +4,7 @@
     height: 600px;
     position: absolute;
     left: 50%;
+    top: 1000px;
     margin-top: 1100px;
     transform: translate(-50%, 0);
     align-items: center;
@@ -38,7 +39,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 45px;
     line-height: 140%;
     text-align: left;
     color: #FFFFFF;

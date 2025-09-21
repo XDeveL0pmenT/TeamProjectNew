@@ -19,7 +19,7 @@ function Buttom() {
                     height: "60px",
                     left: "250px",
                     top: "300px",
-                    backgroundColor: hover ? "rgb(255, 200, 0)" : "rgba(183, 143, 0, 1)"
+                    backgroundColor: hover ? "rgba(255, 153, 0, 1)" : "rgb(255, 200, 0)"
                 
                 }}
                 >Explore All Products</button>
